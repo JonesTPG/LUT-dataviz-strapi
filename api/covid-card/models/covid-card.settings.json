@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "covid_cards",
+  "info": {
+    "name": "Covid Card"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "total_cases": {
+      "type": "integer"
+    },
+    "deaths": {
+      "type": "integer"
+    },
+    "date_of_first_case": {
+      "type": "date"
+    },
+    "population_density": {
+      "type": "decimal"
+    },
+    "over_65": {
+      "type": "decimal"
+    },
+    "region": {
+      "type": "string"
+    }
+  }
+}

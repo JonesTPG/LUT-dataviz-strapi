@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/covid-cards",
+      "handler": "covid-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/covid-cards/count",
+      "handler": "covid-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/covid-cards/:id",
+      "handler": "covid-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/covid-cards",
+      "handler": "covid-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/covid-cards/:id",
+      "handler": "covid-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/covid-cards/:id",
+      "handler": "covid-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
