@@ -41,6 +41,9 @@
     },
     "region": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
