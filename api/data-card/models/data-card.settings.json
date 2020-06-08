@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_cards",
+  "info": {
+    "name": "DataCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "custom_stat_1": {
+      "type": "string"
+    },
+    "custom_stat_2": {
+      "type": "string"
+    },
+    "custom_stat_3": {
+      "type": "string"
+    },
+    "custom_stat_4": {
+      "type": "string"
+    },
+    "custom_stat_5": {
+      "type": "string"
+    },
+    "custom_stat_6": {
+      "type": "string"
+    },
+    "custom_stat_7": {
+      "type": "string"
+    },
+    "custom_stat_8": {
+      "type": "string"
+    },
+    "custom_stat_9": {
+      "type": "string"
+    },
+    "custom_stat_10": {
+      "type": "string"
+    },
+    "custom_json_1": {
+      "type": "json"
+    },
+    "custom_json_2": {
+      "type": "json"
+    },
+    "custom_json_3": {
+      "type": "json"
+    }
+  }
+}
