@@ -15,6 +15,9 @@
     },
     "data_cards": {
       "collection": "data-card"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
