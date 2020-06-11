@@ -1,0 +1,3 @@
+- check that README development environment setup works
+
+- fill out information on connecting to the database locally
