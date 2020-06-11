@@ -2,6 +2,10 @@
 
 ## Setting up a development environment
 
+### Connecting to database locally
+
+TBD.
+
 ### Starting Strapi
 
 1. git clone https://github.com/JonesTPG/LUT-dataviz-strapi
@@ -11,10 +15,6 @@
 3. npm run develop
 
 4. go to localhost:1337/admin and login with admin credentials
-
-### Connecting to database
-
-TBD.
 
 ## Creating content
 
