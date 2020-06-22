@@ -4,11 +4,11 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        uri: env('DATABASE_URI'),
+        uri: env('DEV_DATABASE_URI'),
       },
       options: {
-        authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
-        ssl: env.bool('DATABASE_SSL', true),
+        authenticationDatabase: env('DEV_AUTHENTICATION_DATABASE', null),
+        ssl: env.bool('DEV_DATABASE_SSL', true),
       },
     },
   },

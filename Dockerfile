@@ -8,10 +8,10 @@ RUN npm ci --only=production
 
 COPY . .
 
-RUN npm run build
+RUN npm run build:prod
 
 EXPOSE 1337
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "start:prod"]
 
 

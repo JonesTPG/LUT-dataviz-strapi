@@ -1,14 +1,19 @@
 module.exports = ({ env }) => ({
-  defaultConnection: "default",
+  defaultConnection: 'default',
   connections: {
     default: {
-      connector: "mongoose",
+      connector: 'mongoose',
       settings: {
-        uri: env("DATABASE_URI"),
+        client: 'mongo',
+        host: env('PROD_DATABASE_HOST', 'localhost'),
+        port: env.int('PROD_DATABASE_PORT', 27017),
+        database: env('PROD_DATABASE_NAME', 'strapi'),
+        username: env('PROD_DATABASE_USERNAME', 'strapi'),
+        password: env('PROD_DATABASE_PASSWORD', 'strapi'),
       },
       options: {
-        authenticationDatabase: env("AUTHENTICATION_DATABASE", null),
-        ssl: env.bool("DATABASE_SSL", true),
+        authenticationDatabase: env('PROD_AUTHENTICATION_DATABASE', null),
+        ssl: env('PROD_DATABASE_SSL', true),
       },
     },
   },
