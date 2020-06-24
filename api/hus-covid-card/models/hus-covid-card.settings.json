@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hus_covid_cards",
+  "info": {
+    "name": "HUS Covid Card"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "timespan": {
+      "type": "string"
+    },
+    "cases": {
+      "type": "integer"
+    },
+    "region": {
+      "type": "string"
+    },
+    "timespan_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

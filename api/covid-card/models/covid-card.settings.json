@@ -9,12 +9,8 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "images": {
-      "collection": "file",
+    "chart": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -23,15 +19,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "total_cases": {
-      "type": "integer"
-    },
-    "deaths": {
-      "type": "integer"
-    },
-    "date_of_first_case": {
-      "type": "date"
     },
     "population_density": {
       "type": "decimal"
@@ -42,8 +29,22 @@
     "region": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "timespan_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "timespan": {
+      "type": "string"
+    },
+    "date_of_first_case": {
+      "type": "string"
     }
   }
 }

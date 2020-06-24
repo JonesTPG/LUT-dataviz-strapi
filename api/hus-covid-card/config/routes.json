@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hus-covid-cards",
+      "handler": "hus-covid-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hus-covid-cards/count",
+      "handler": "hus-covid-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hus-covid-cards/:id",
+      "handler": "hus-covid-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hus-covid-cards",
+      "handler": "hus-covid-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hus-covid-cards/:id",
+      "handler": "hus-covid-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hus-covid-cards/:id",
+      "handler": "hus-covid-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
