@@ -1,3 +1,5 @@
-- check that README development environment setup works
+- check that README development environment setup works DONE
 
-- fill out information on connecting to the database locally
+- fill out information on connecting to the database locally DONE
+
+- check if images can be uploaded locally. if it needs to be done in production environment, update the README.md
