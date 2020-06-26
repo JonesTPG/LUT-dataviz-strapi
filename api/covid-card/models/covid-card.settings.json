@@ -45,6 +45,9 @@
     },
     "date_of_first_case": {
       "type": "string"
+    },
+    "cases": {
+      "type": "integer"
     }
   }
 }
