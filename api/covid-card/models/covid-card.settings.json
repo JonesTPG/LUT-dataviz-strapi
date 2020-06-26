@@ -48,6 +48,12 @@
     },
     "cases": {
       "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

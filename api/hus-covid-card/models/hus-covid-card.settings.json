@@ -28,6 +28,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
