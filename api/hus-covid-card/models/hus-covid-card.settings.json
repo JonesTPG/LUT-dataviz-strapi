@@ -21,11 +21,7 @@
     "timespan_image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false
     },
@@ -38,16 +34,19 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false
     },
     "order": {
       "type": "integer"
+    },
+    "map": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
