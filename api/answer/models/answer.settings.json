@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers",
+  "info": {
+    "name": "Answer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "age": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "assignment_answer": {
+      "type": "string"
+    },
+    "application_version": {
+      "type": "string"
+    },
+    "question_1": {
+      "type": "string"
+    },
+    "question_2": {
+      "type": "string"
+    },
+    "question_3": {
+      "type": "string"
+    },
+    "question_4": {
+      "type": "string"
+    },
+    "question_5": {
+      "type": "string"
+    },
+    "question_6": {
+      "type": "string"
+    },
+    "question_7": {
+      "type": "string"
+    },
+    "question_8": {
+      "type": "string"
+    },
+    "question_9": {
+      "type": "string"
+    },
+    "question_10": {
+      "type": "string"
+    },
+    "question_11": {
+      "type": "string"
+    },
+    "question_12": {
+      "type": "string"
+    },
+    "question_13": {
+      "type": "string"
+    },
+    "question_14": {
+      "type": "string"
+    },
+    "question_15": {
+      "type": "string"
+    },
+    "question_16": {
+      "type": "string"
+    },
+    "question_17": {
+      "type": "string"
+    },
+    "question_18": {
+      "type": "string"
+    },
+    "question_19": {
+      "type": "string"
+    },
+    "question_20": {
+      "type": "string"
+    }
+  }
+}
