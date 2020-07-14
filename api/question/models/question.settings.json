@@ -24,7 +24,7 @@
       "plugin": "upload",
       "required": false
     },
-    "order": {
+    "identifier": {
       "type": "integer"
     },
     "type": {
