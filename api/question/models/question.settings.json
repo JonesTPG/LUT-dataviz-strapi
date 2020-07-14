@@ -26,6 +26,13 @@
     },
     "order": {
       "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "recall",
+        "recognition"
+      ]
     }
   }
 }
