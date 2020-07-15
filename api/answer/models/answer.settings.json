@@ -80,6 +80,9 @@
     },
     "question_20": {
       "type": "string"
+    },
+    "data": {
+      "type": "json"
     }
   }
 }
