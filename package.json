@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.0",
+    "strapi": "3.2.5",
     "strapi-admin": "3.0.0",
     "strapi-connector-mongoose": "3.0.0",
     "strapi-plugin-content-manager": "3.0.0",
